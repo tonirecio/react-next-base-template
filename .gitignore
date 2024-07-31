@@ -10,6 +10,7 @@
 .yarn/unplugged
 .yarn/build-state.yml
 
+
 .swc
 node_modules
 yarn-error.log
