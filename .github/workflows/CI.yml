@@ -32,8 +32,8 @@ jobs:
 
       - name: Setup Yarn
         run: | 
-          npm install --global yarn
           touch yarn.lock
+          npm install --global yarn          
 
       - name: Set Yarn version
         run: yarn set version berry
