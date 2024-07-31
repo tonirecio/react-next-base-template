@@ -31,9 +31,7 @@ jobs:
           node-version: 20.15.0
 
       - name: Setup Yarn
-        run: | 
-          touch yarn.lock
-          npm install --global yarn          
+        run: npm install yarn          
 
       - name: Set Yarn version
         run: yarn set version berry
