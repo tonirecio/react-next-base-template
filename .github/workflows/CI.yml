@@ -34,7 +34,7 @@ jobs:
         run: npm install yarn          
 
       - name: Set Yarn version
-        run: yarn set version canary
+        run: yarn set version --global berry
 
       - name: Install dependencies
         run: yarn install
