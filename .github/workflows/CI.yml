@@ -31,7 +31,10 @@ jobs:
           node-version: 20.15.0
 
       - name: Setup Yarn
-        run: npm install yarn@4.3.1
+        run: npm install yarn
+
+      - name: Set Yarn version
+        run: yarn set version berry
 
       - name: Install dependencies
         run: yarn install
